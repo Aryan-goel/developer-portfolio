@@ -1,14 +1,17 @@
 import * as adobeXd from '/public/svg/skills/adobe-xd.svg';
 import adobeaudition from '/public/svg/skills/adobeaudition.svg';
 import afterEffects from '/public/svg/skills/after-effects.svg';
+import threejs from '/public/svg/skills/threejs.svg'
 import angular from '/public/svg/skills/angular.svg';
 import aws from '/public/svg/skills/aws.svg';
 import azure from '/public/svg/skills/azure.svg';
 import blender from '/public/svg/skills/blender.svg';
 import bootstrap from '/public/svg/skills/bootstrap.svg';
 import bulma from '/public/svg/skills/bulma.svg';
+import virtual from '/public/svg/skills/virtual.svg'
 import c from '/public/svg/skills/c.svg';
 import canva from '/public/svg/skills/canva.svg';
+import ar from '/public/svg/skills/augmented.svg';
 import capacitorjs from '/public/svg/skills/capacitorjs.svg';
 import coffeescript from '/public/svg/skills/coffeescript.svg';
 import cplusplus from '/public/svg/skills/cplusplus.svg';
@@ -103,8 +106,12 @@ export const skillsImage = (skill) => {
       return nuxtJS;
     case 'react':
       return react;
+    case 'three js':
+      return threejs;
     case 'svelte':
       return svelte;
+    case 'ar':
+      return ar;
     case 'typescript':
       return typescript;
     case 'vue':
@@ -113,6 +120,8 @@ export const skillsImage = (skill) => {
       return bootstrap;
     case 'bulma':
       return bulma;
+    case 'vr':
+      return virtual;
     case 'capacitorjs':
       return capacitorjs;
     case 'coffeescript':
